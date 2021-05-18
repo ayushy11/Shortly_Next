@@ -15,16 +15,19 @@ function Header() {
       justifyContent="space-between"
       // px="5.25rem"
       display="flex"
-      border="2px solid black"
+      // border="2px solid black"
+      border="none"
     >
       <Image
-        border="2px solid"
+        // border="2px solid"
         background="url('/images/logo.svg')"
         // backgroundSize="cover"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         height="50px"
         width="150px"
+        outline="none"
+        border="none"
         // marginTop={{lg:2}}
         // css={css`
         //   margin: 0;
@@ -35,7 +38,7 @@ function Header() {
         //   }
         // `}
       />
-      
+
       <Menu />
     </Container>
   );

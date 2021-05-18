@@ -1,6 +1,5 @@
 import React from "react";
 import Box from "./Box";
-import HeaderBox from "./HeaderBox";
 
 const Typography = (props) => {
   return (
@@ -42,4 +41,4 @@ const Container = (props) => {
   );
 };
 
-export { Box, HeaderBox, Typography, Button, Flex, Container, Image };
+export { Box, Typography, Button, Flex, Container, Image };

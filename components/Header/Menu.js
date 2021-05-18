@@ -51,7 +51,7 @@ const SignUpButton = styled.button`
 
 const MenuButton = styled.button`
   background-color: #fff;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   color: #bfbfbf;
   cursor: pointer;
   font-size: 2rem;
@@ -59,6 +59,9 @@ const MenuButton = styled.button`
   margin: -10px 0 0 0;
   padding: 0 10px;
   text-align: center;
+  outline: none;
+  text-decoration: none;
+  border: none;
 
   @media only screen and (min-width: 700px) {
     display: none;
@@ -85,7 +88,7 @@ function Menu() {
         width={{xs: "90%", sm: "100%"}}
         marginLeft="5rem"
         position="static"
-        border="2px solid aqua"
+        // border="2px solid aqua"
         borderRadius="10px"
         zIndex="1"
       >
@@ -118,7 +121,7 @@ function Menu() {
           fontSize="1.2rem"
           fontWeight="500"
           margin="0"
-          border="1px solid black"
+          // border="1px solid black"
         >
           <Box
             mr="1rem"
@@ -131,7 +134,7 @@ function Menu() {
           <Box
             width="140px"
             alignItems="center"
-            border="1px solid red"
+            // border="1px solid red"
             display="flex"
             justifyContent="center"
           >

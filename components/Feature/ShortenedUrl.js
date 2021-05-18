@@ -73,7 +73,7 @@ function ShortenedUrl({ originalUrl, shortenedUrl }) {
 
   return (
     <Box
-      border="2px solid blue"
+      // border="2px solid blue"
       display="flex"
       flexDirection={{ xs: "column", sm: "row" }}
       alignItems={{ sm: "center" }}
@@ -87,7 +87,7 @@ function ShortenedUrl({ originalUrl, shortenedUrl }) {
       <OriginalLink>{originalUrl}</OriginalLink>
 
       <Box
-        border="2px solid grey"
+        // border="2px solid grey"
         display={{ sm: "flex" }}
         align-items={{ sm: "center" }}
         flex-direction={{ sm: "row" }}

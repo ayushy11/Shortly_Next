@@ -6,7 +6,7 @@ import axios from "axios";
 import ShortenedUrl from "./ShortenedUrl";
 
 const ShortenerForm = styled.form`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ function Shortener() {
   return (
     <>
       <Box
-        border="2px solid orange"
+        // border="2px solid orange"
         bg="primaryDark"
         backgroundImage={{
           xs: "url('/images/bg-shorten-mobile.svg')",
@@ -119,7 +119,7 @@ function Shortener() {
       >
         <ShortenerForm>
           <Box
-            border="2px solid white"
+            // border="2px solid white"
             width="100%"
             m="0"
             p="0"
@@ -136,7 +136,7 @@ function Shortener() {
           <Box
             width={{ xs: "100%", sm: "35%" }}
             height={{ sm: "50px" }}
-            border="2px solid greenyellow"
+            // border="2px solid greenyellow"
           >
             <ShortenerButton type="submit" onClick={handleButton}>
               Shorten It!
@@ -145,7 +145,7 @@ function Shortener() {
         </ShortenerForm>
       </Box>
       <Box
-        border="2px solid purple"
+        // border="2px solid purple"
         padding={{ sm: "1rem" }}
         marginTop="18rem"
         marginBottom="-210px"

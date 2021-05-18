@@ -10,7 +10,7 @@ const HeroHeader = styled.h2`
   margin: 10px auto;
   max-width: 80%;
   text-align: center;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 
   @media only screen and (min-width: 700px) {
     font-size: 3rem;
@@ -55,15 +55,17 @@ function Hero() {
       flexDirection={{ xs: "column", sm: "row-reverse" }}
       justifyContent="flex-end"
       color="white"
-      border="2px solid green"
+      // border="2px solid green"
       padding="2% 0"
       padding={{xs:"30% 0", sm:"2% 0"}}
       width={{sm: "82.5%"}}
       maxWidth={{ xs: "100%" }}
       marginBottom={{sm: "250px"}}
+      border="none"
     >
       <Image
-        border="2px solid red"
+        // border="2px solid red"
+        border="none"
         background="url('/images/illustration-working.svg')"
         backgroundSize="cover"
         backgroundPosition="center"
@@ -74,7 +76,7 @@ function Hero() {
         right={{xs: "0"}}
       />
       <Box
-        border="2px solid blue"
+        // border="2px solid blue"
         textAlign={{ xs: "center", sm: "left" }}
         width={{xs: "100%", sm: "50%"}}
       >
