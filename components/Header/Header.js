@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { HeaderBox, Box, Image, Flex, Container } from "../library";
+import { Box, Image, Flex, Container } from "../library";
 import { css, useTheme } from "styled-components";
 import Menu from "./Menu";
 
@@ -27,16 +27,7 @@ function Header() {
         height="50px"
         width="150px"
         outline="none"
-        border="none"
-        // marginTop={{lg:2}}
-        // css={css`
-        //   margin: 0;
-        //   border: 2px solid black;
-
-        //   @media only screen and (min-width: '1024px') {
-        //     margin-top: 5px;
-        //   }
-        // `}
+        border="none"        
       />
 
       <Menu />
