@@ -20,14 +20,13 @@ function Header() {
     >
       <Image
         // border="2px solid"
-        background="url('/images/logo.svg')"
+        src='/images/logo.svg'
         // backgroundSize="cover"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
-        height="50px"
-        width="150px"
-        outline="none"
-        border="none"        
+        height={{xs:"40px",sm:"40px"}}
+        width={{xs:"150px",sm:"170px"}}
+        margin={{xs:"-10px",sm:"2px"}}      
       />
 
       <Menu />

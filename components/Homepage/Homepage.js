@@ -31,15 +31,18 @@ function Homepage() {
       >
         <Image
           // border="2px solid red"
-          border="none"
-          background="url('/images/illustration-working.svg')"
-          backgroundSize="cover"
-          backgroundPosition="center"
-          backgroundRepeat="no-repeat"
-          height="400px"
-          width={{ xs: "100%", sm: "50%" }}
+          border="none"          
+          src="/images/illustration-working.svg"
+          height={{xs:"300px",sm:"420px"}}
+          width={{ xs: "400px", sm: "50%" }}
+          // backgroundSize="cover"
+          // backgroundPosition="center"
+          // backgroundRepeat="no-repeat"
+          minWidth={{xs:"200px"}}
+          minHeight={{xs:"300px"}}
           position={{ sm: "absolute" }}
           right={{ xs: "0" }}
+          marginTop={{ xs: "-100px",sm:"10px" }}          
         />
         <Box
           // border="2px solid blue"
@@ -64,7 +67,7 @@ function Homepage() {
             links are performing.
           </Typography>
           <PrimaryButton
-            fontSize="1.3rem"
+            fontSize={{xs:"1.8rem", sm:"1.5rem"}}
             margin="1rem auto 0 auto"
             padding="1rem 2rem"
           >

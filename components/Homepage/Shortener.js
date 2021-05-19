@@ -70,6 +70,7 @@ function Shortener() {
               margin={{ xs: "1rem", sm: "0" }}
               width={{ xs: "90%", sm: "100%" }}
               padding={{ xs: "0.8rem" }}
+              fontSize={{xs:"1.5rem"}}
             />
           </Box>
           <Box
@@ -86,6 +87,7 @@ function Shortener() {
               margin={{ xs: "1rem" }}
               marginTop={{ sm: "0" }}
               marginLeft={{ sm: "1.9rem" }}
+              fontSize={{xs:"1.5rem"}}
             >
               Shorten It!
             </SecondaryButton>

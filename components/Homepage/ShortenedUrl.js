@@ -34,7 +34,7 @@ function ShortenedUrl({ originalUrl, shortenedUrl }) {
     >
       <Typography
         color="primaryDark"
-        fontSize="1.3rem"
+        fontSize={{ xs: "1.5rem", sm: "1.3rem" }}
         padding="15px 15px 10px 15px"
         fontWeight="600"
         // overflow="scroll"
@@ -56,7 +56,7 @@ function ShortenedUrl({ originalUrl, shortenedUrl }) {
           background-color="white"
           border="none"
           color="primary"
-          fontSize="1.3rem"
+          fontSize={{ xs: "1.5rem", sm: "1.3rem" }}
           margin="10px"
           padding="15px"
           fontWeight="600"

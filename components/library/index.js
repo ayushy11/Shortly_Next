@@ -14,8 +14,8 @@ const Heading = (props) => {
     <Box
       as="h2"
       color="secondary"
-      fontSize={{ xs: "4rem", sm: "3rem", md: "4rem" }}
-      fontWeight="700"
+      fontSize={{ xs: "5rem", sm: "3rem", md: "4rem" }}
+      fontWeight={{xs:"750",sm:"700"}}
       textAlign={{ xs: "center", sm: "left" }}
       {...props}
     >
