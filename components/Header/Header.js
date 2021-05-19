@@ -26,7 +26,8 @@ function Header() {
         backgroundRepeat="no-repeat"
         height={{xs:"40px",sm:"40px"}}
         width={{xs:"150px",sm:"170px"}}
-        margin={{xs:"-10px",sm:"2px"}}      
+        margin={{xs:"10px",sm:"2px"}}      
+        mt={{xs:"15px"}}
       />
 
       <Menu />
