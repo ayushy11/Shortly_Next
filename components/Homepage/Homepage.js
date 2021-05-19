@@ -34,7 +34,7 @@ function Homepage() {
           border="none"          
           src="/images/illustration-working.svg"
           height={{xs:"300px",sm:"420px"}}
-          width={{ xs: "400px", sm: "50%" }}
+          width={{ xs: "411px", sm: "50%" }}
           // backgroundSize="cover"
           // backgroundPosition="center"
           // backgroundRepeat="no-repeat"
@@ -62,6 +62,7 @@ function Homepage() {
             lineHeight="1.5"
             maxWidth="520px"
             margin="1rem"
+            ml={{sm:"0px"}}
           >
             Build your brand’s recognition and get detailed insights on how your
             links are performing.
